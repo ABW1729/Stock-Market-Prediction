@@ -56,7 +56,7 @@ Historical stock prices are obtained from sources like Yahoo Finance or NSE/BSE 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/stock-prediction-sentiment.git
+git clone https://github.com/ABW1729/stock-market-prediction.git
 
 # Navigate to the project directory
 cd stock-prediction-sentiment
