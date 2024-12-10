@@ -14,7 +14,7 @@ This project aims to predict the stock price of a particular Indian stock (e.g.,
 
 ## Data Sources
 ### News Articles
-The project uses the [https://www.newscatcherapi.com/](https://newscatcherapi.com/) to fetch news articles:
+The project uses NewsCatcherAPI[https://www.newscatcherapi.com/](https://newscatcherapi.com/) to fetch news articles:
 - Fetch articles based on keywords (e.g., "Reliance Industries").
 - Filter articles by publication date to align with stock data.
 - Sentiment analysis is performed on the extracted articles.
