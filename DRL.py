@@ -176,8 +176,8 @@ def predict_next_day(model, scaler, df, date_d):
         print(f"Prediction error: {str(e)}")
         return None
 class StockTradingEnv(gym.Env):
-    def _init_(self, df, data_scaled):
-        super()._init_()
+    def __init__(self, df, data_scaled):
+        super().__init__()
         self.df = df.reset_index()
         self.data_scaled = data_scaled
         self.current_step = 10
